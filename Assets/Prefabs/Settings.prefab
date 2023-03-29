@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4221730418517318246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4221730418517318245}
+  - component: {fileID: 4221730418517318244}
+  m_Layer: 0
+  m_Name: Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4221730418517318245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4221730418517318246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4221730418517318244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4221730418517318246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f92f2804f8fb440b33b95912167d61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <ShipSettings>k__BackingField:
+  - <Name>k__BackingField: Ship 1
+    <Description>k__BackingField: Strong and slow
+    <Health>k__BackingField: 100
+    <Shield>k__BackingField:
+      <Name>k__BackingField: Shield 1
+      <Shield>k__BackingField: 80
+      <ShieldRechargeRate>k__BackingField: 1
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 981b74fbe1c087e4c8b4c24f81da55bf, type: 3}
+    <WeaponSlots>k__BackingField:
+    - <Position>k__BackingField: {x: -168, y: 0}
+      <Size>k__BackingField: {x: 48, y: 48}
+      <Sprite>k__BackingField: {fileID: 0}
+    - <Position>k__BackingField: {x: 168, y: 0}
+      <Size>k__BackingField: {x: 48, y: 48}
+      <Sprite>k__BackingField: {fileID: 0}
+    <EngineeringModuleSlots>k__BackingField:
+    - <Position>k__BackingField: {x: 0, y: 80}
+      <Size>k__BackingField: {x: 48, y: 48}
+      <Sprite>k__BackingField: {fileID: 0}
+    - <Position>k__BackingField: {x: 0, y: -50}
+      <Size>k__BackingField: {x: 48, y: 48}
+      <Sprite>k__BackingField: {fileID: 0}
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 832074af776d6a940b78574eb089902a, type: 3}
+  - <Name>k__BackingField: Ship 2
+    <Description>k__BackingField: Fast and furious
+    <Health>k__BackingField: 60
+    <Shield>k__BackingField:
+      <Name>k__BackingField: Shield 2
+      <Shield>k__BackingField: 120
+      <ShieldRechargeRate>k__BackingField: 1
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 981b74fbe1c087e4c8b4c24f81da55bf, type: 3}
+    <WeaponSlots>k__BackingField:
+    - <Position>k__BackingField: {x: -116, y: 63}
+      <Size>k__BackingField: {x: 48, y: 48}
+      <Sprite>k__BackingField: {fileID: 0}
+    - <Position>k__BackingField: {x: 116, y: 63}
+      <Size>k__BackingField: {x: 48, y: 48}
+      <Sprite>k__BackingField: {fileID: 0}
+    <EngineeringModuleSlots>k__BackingField:
+    - <Position>k__BackingField: {x: 0, y: 170}
+      <Size>k__BackingField: {x: 48, y: 48}
+      <Sprite>k__BackingField: {fileID: 0}
+    - <Position>k__BackingField: {x: 0, y: 10}
+      <Size>k__BackingField: {x: 48, y: 48}
+      <Sprite>k__BackingField: {fileID: 0}
+    - <Position>k__BackingField: {x: 0, y: -90}
+      <Size>k__BackingField: {x: 48, y: 48}
+      <Sprite>k__BackingField: {fileID: 0}
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 422c05c8977045e4bb60a6f899291f1b, type: 3}
+  <WeaponSettings>k__BackingField:
+  - <Name>k__BackingField: Weapon A
+    <Damage>k__BackingField: 5
+    <RateOfFire>k__BackingField: 3
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 2d35904e2e4151f4fb17e82a9ebffbbb, type: 3}
+    <LaserSprite>k__BackingField: {fileID: 21300000, guid: 47e540b1aae15da45be423d3c9324155, type: 3}
+  - <Name>k__BackingField: Weapon B
+    <Damage>k__BackingField: 4
+    <RateOfFire>k__BackingField: 2
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 95f029df12165894f995bb28d1b8a063, type: 3}
+    <LaserSprite>k__BackingField: {fileID: 21300000, guid: 8a0161c86da62f242ae818c87467e004, type: 3}
+  - <Name>k__BackingField: Weapon C
+    <Damage>k__BackingField: 20
+    <RateOfFire>k__BackingField: 5
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 7cbdc00f27af04844b1fddbca7d63f04, type: 3}
+    <LaserSprite>k__BackingField: {fileID: 21300000, guid: 881a1d8176ab4e644a3b385ee7b637f0, type: 3}
+  <ModuleSettings>k__BackingField:
+  - <Name>k__BackingField: Module A
+    <Parameters>k__BackingField:
+    - <Type>k__BackingField: 1
+      <Value>k__BackingField: 50
+    <Sprite>k__BackingField: {fileID: 21300000, guid: c110726b26ccfb44ca367c1008a4a1a2, type: 3}
+  - <Name>k__BackingField: Module B
+    <Parameters>k__BackingField:
+    - <Type>k__BackingField: 0
+      <Value>k__BackingField: 50
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 78ab0a4bc4a66a74782b80d5cf1cc803, type: 3}
+  - <Name>k__BackingField: Module C
+    <Parameters>k__BackingField:
+    - <Type>k__BackingField: 2
+      <Value>k__BackingField: 1.2
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 0428ad3ab61792c42bf57734eee3088b, type: 3}
+  - <Name>k__BackingField: Module D
+    <Parameters>k__BackingField:
+    - <Type>k__BackingField: 3
+      <Value>k__BackingField: 1.2
+    <Sprite>k__BackingField: {fileID: 21300000, guid: da5ad06c29270f345bf5132e234c8c77, type: 3}
